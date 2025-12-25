@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Seven on Track</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      background: #0f0f0f;
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 720px;
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+    }
+    video {
+      width: 100%;
+      border-radius: 12px;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 14px 28px;
+      background: #ff2a2a;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 999px;
+    }
+    a.button:hover {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- VIDEO: autoplay + mute + loop -->
+    <video autoplay muted loop playsinline>
+      <source src="seven-on-track.mp4" type="video/mp4" />
+      Trình duyệt của bạn không hỗ trợ video.
+    </video>
+
+    <!-- LINK ĐỊA ĐIỂM -->
+    <a
+      class="button"
+      href="https://maps.app.goo.gl/p7Fiy345LhhyuwdT9"
+      target="_blank"
+    >
+      📍 Xem địa điểm sự kiện
+    </a>
+
+  </div>
+</body>
+</html>
